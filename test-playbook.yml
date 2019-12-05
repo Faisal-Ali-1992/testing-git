@@ -5,3 +5,9 @@
 
     - name: create a simple text file
       shell: touch result.txt
+
+    - name: remove result.txt
+      file:
+        path: /home/faisal/git-test/result.txt
+        state: absent
+
