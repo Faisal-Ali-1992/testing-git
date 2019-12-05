@@ -1,0 +1,7 @@
+---
+
+- hosts: localhost
+  tasks:
+
+    - name: create a simple text file
+      shell: touch result.txt
