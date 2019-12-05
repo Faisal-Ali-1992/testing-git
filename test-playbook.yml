@@ -10,4 +10,8 @@
       file:
         path: /home/faisal/git-test/result.txt
         state: absent
+    
+    - name: sleep for 5 seconds
+      command: /bin/sleep 5
+
 
